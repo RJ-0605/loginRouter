@@ -1,0 +1,28 @@
+{
+  "name": "login-server",
+  "version": "0.0.1",
+  "description": "Server to demonstrate login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "login",
+    "server",
+    "express",
+    "authentication"
+  ],
+  "author": "Alfred Delle",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

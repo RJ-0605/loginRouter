@@ -1,0 +1,42 @@
+
+
+
+
+Users Table
+
+Usernamme     Email      DOB      TwitterHandle
+a             b@g.com    3        alu
+b             a@f.com    19       jack
+
+
+
+
+Blog Table
+Title     Contents     UpVotes    Downvotes
+
+
+
+
+            Users Collection
+
+UserDocument
+  id: 1
+  username: a
+  email: b@g.com
+  DOB: 3
+  TwitterHandle: alu
+
+
+UserDocument
+  id: 2
+  username: b
+  email: a@f.com
+  DOB: 19
+  TwitterHandle: jack
+
+            Blog Collection
+
+BlogDocument
+  id: 4
+  title: hakuna
+  content: matata
